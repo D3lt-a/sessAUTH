@@ -1,0 +1,51 @@
+# Backend dependencies
+backend/node_modules/
+backend/package-lock.json
+
+# Frontend dependencies (already covered but just in case)
+frontend/node_modules/
+frontend/package-lock.json
+
+# Environment files (NO .env files ever!)
+.env
+.env.*
+backend/.env
+*.env
+
+# Build folders
+backend/dist/
+frontend/build/
+build/
+
+# Database
+database/*.sqlite
+*.db
+*.sqlite3
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+backend/logs/
+frontend/logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.bak
+*.backup
